@@ -17,6 +17,8 @@ Notas, decisiones y backlog del proyecto Drop.
   2. Búsqueda de producto
   3. Catálogo y precios
   4. Marketing y anuncios
+- Se define la identidad completa del agente CEO: **Vega Duarte**. Combina 3 referencias reales investigadas a fondo — Jeff Bezos (liderazgo, 14 Leadership Principles), Nik Sharma (growth/ecommerce, framework TRACE) y Anton Kraly de Drop Ship Lifestyle (dropshipping y nicho, adaptado a moda) — y su lista de responsabilidades. Ver [.claude/agents/ceo.md](./.claude/agents/ceo.md).
+  - Corrección durante la investigación: se había propuesto inicialmente "Ricky Hayes (Dropship Lifestyle)" como referencia de dropshipping, pero ese framework de nicho/alto ticket es en realidad de **Anton Kraly** (Drop Ship Lifestyle), no de Ricky Hayes (mentor real de dropshipping pero sin framework propio documentado públicamente).
 
 ## Decisiones
 
