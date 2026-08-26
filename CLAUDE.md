@@ -6,9 +6,15 @@ Contexto para Claude Code al trabajar en este repositorio.
 
 Dropshipping para la tienda Shopify **Camila Hidalgo** (camilahidalgo.com, plan Basic, moneda EUR, España).
 
+## Estructura del repo
+
+- `.claude/agents/` — subagentes (CEO + uno por área de negocio). Ver [roster](./.claude/agents/README.md).
+- `.claude/skills/` — procedimientos puntuales y repetibles. Ver [README.md](./.claude/skills/README.md).
+- `atencion-cliente/`, `busqueda-producto/`, `catalogo-precios/`, `marketing/` — carpetas de contenido de cada área (plantillas, notas, resultados), una por subagente.
+- Si hace falta una carpeta nueva que no encaje en las anteriores, proponla antes de crear muchos archivos de golpe.
+
 ## Cómo trabajar aquí
 
-- El repo empieza vacío: no asumas una estructura de carpetas existente, pregunta o propón una antes de crear muchos archivos de golpe.
 - Para cualquier operación sobre la tienda (productos, pedidos, inventario, catálogo, descuentos, analíticas) usa el conector MCP de Shopify en lugar de hardcodear llamadas a la Admin API a mano, salvo que el conector no cubra esa operación.
 - Si se necesita una llamada GraphQL que no tiene tool dedicada, usar `graphql_query` / `graphql_mutation` del conector de Shopify.
 - Mantén los precios y textos en EUR / español, coherente con la tienda.

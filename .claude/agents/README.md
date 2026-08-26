@@ -8,15 +8,14 @@ Cada subagente es un archivo `.md` en esta carpeta con frontmatter (nombre, desc
 
 ## Roster
 
-_(vacío por ahora — se añaden a medida que el CEO detecta tareas repetitivas que conviene delegar)_
+| Agente | Área | Carpeta de contenido |
+|---|---|---|
+| [ceo.md](./ceo.md) — Vega Duarte | Dirección general del negocio | — |
+| [atencion-cliente.md](./atencion-cliente.md) | Atención al cliente | [/atencion-cliente](../../atencion-cliente/) |
+| [busqueda-producto.md](./busqueda-producto.md) | Búsqueda de producto | [/busqueda-producto](../../busqueda-producto/) |
+| [catalogo-precios.md](./catalogo-precios.md) | Catálogo y precios | [/catalogo-precios](../../catalogo-precios/) |
+| [marketing.md](./marketing.md) | Marketing y anuncios | [/marketing](../../marketing/) |
 
-## Roadmap propuesto
+Ver Skills (procedimientos puntuales, distintos de los agentes de área) en [../skills/README.md](../skills/README.md).
 
-Orden no definitivo, priorizar según lo que más tiempo consuma en cada momento:
-
-1. **Atención al cliente** — responder emails/mensajes de clientes (devoluciones, dudas de pedidos, seguimiento) vía Gmail/Shopify.
-2. **Búsqueda de producto** — investigar y evaluar productos ganadores (tendencias, proveedores, márgenes).
-3. **Catálogo y precios** — sincronizar inventario, precios y estado de productos entre proveedor y Shopify.
-4. **Marketing y anuncios** — generar copys, analizar campañas y sugerir escalado.
-
-Ver decisión en [../../memo.md](../../memo.md) (2026-08-26).
+Ver decisión original en [../../memo.md](../../memo.md) (2026-08-26).
